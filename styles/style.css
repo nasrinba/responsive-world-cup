@@ -1,0 +1,213 @@
+
+main {
+  background-color: rgb(243, 231, 231) ;
+width: 1600px;
+height: 2200px;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.top-banner {
+  display: flex;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: #161616;
+  border-radius: 30px;
+  width: 1321px;
+  height: 646px;
+  margin:50px;
+   margin-left: 140px;  
+ }
+.top-banner-text {
+  width: 531px;
+  height: 424px;
+  
+   margin-left: 106px; 
+   margin-right: 24px; 
+}
+.banner-title {
+   color:#FFFFFF; 
+  font-size: 70px;
+   left: 246px;
+  top: 161px; 
+margin-bottom: 20px;
+}
+.top-about  {
+  font-Size: 16px;
+   color: #FFFFFF; 
+  margin-bottom: 30px;
+} 
+.button {
+  background-color: brown;
+   width: 187px;
+   height: 56px;
+   border-radius: 5px;
+   font-size: 20px;
+   color: #FFFFFF;
+   border: none;
+}
+
+ .top-banner img {
+   width: 581px;
+   height: 613px;
+   
+   margin-top: 33px; 
+   margin-right: 79px;
+  
+ }
+ /*--------------------------------
+  three buttons + players 
+  -----------------------------------*/
+  .button-match {
+    font-size: 20px;
+      width:252px; 
+      height:54px; 
+    
+      color: #161616;
+      
+    border-radius: 10px;
+      background-color:#FFFFFF ;
+      margin-top: 30px;
+  }
+  .button-group {
+    font-size: 20px;
+       width: 252px; 
+      height: 54px;        
+      color: #161616;
+      border-radius: 10px;
+      
+      background-color:#FFFFFF ;
+  }
+      
+  .button-blog {
+    font-size: 20px;
+    width: 252px; 
+   height: 54px; 
+   border-radius: 10px;       
+   color:#FFFFFF;
+ background-color:#DD0000; 
+ margin-bottom: 30px;
+}
+ .three-button {
+  display: grid;
+  justify-content: center;
+   text-align: center; 
+  width: 312px;
+  height: 312px;
+  margin-left: 120px;
+  margin-right: 24px;
+  margin-top: 130px; 
+  background-color: #161616;
+  border-radius: 10px; 
+  
+}
+ .players{
+ display: flex;
+ grid-template-columns: repeat(3, 2fr);
+ 
+ grid-column-gap: 24px;
+ width: 312px;
+ height: 312px;
+ border-radius: 10px;
+ margin-top: 130px; 
+}
+.Transfer-button {
+     width:100px;
+     height: 32px;
+     border-radius: 5px;
+     border: 1px solid #161616;
+     
+}
+ .three-button-players {
+  display: grid;
+grid-template-columns: repeat(4, 1fr);
+justify-content: center;
+align-items: center; 
+}
+ 
+  
+ .container .section-two .players-two {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+  justify-content: center;
+align-items: center; 
+width: 312px;
+ height: 312px;
+ border-radius: 10px;
+ margin-top: 130px; 
+ }
+ section .center {
+  justify-content: center;
+  margin-left: 450px;
+ }
+ footer {
+  width: 1600px;
+  background: #161616;
+ }
+ .footer {
+  color: #B9B9B9;
+   height: 444px;
+  font-size: 16px;
+  
+ }
+ h2 {
+  color: #FFFFFF;
+  font-size: 40px;
+
+  text-align: center;
+ }
+ .flex{
+  display: flex;
+  margin-left: 80px;
+  justify-content: center;
+  gap:40px;
+  
+  
+ }
+ hr {
+  background-color: #FFFFFF1A;
+  width: 1200px;
+  /* margin-top: 240px;
+  margin-bottom: 240px;
+  margin-left: 140px; */
+ }
+/* Media Queris */
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+  .container{
+    width: 100%;
+  }
+  .players, .blogs, courses{
+    background-color: red;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player, blog{
+    flex-direction: column;
+  }
+  .blogs, .courses{
+    display: none;
+  }
+  
+}
+
+/* Tablet Devices */
+@media only screen and (min-width:688px) and (max-width:992px){
+  .container{
+    width: 100%;
+  }
+  .players, .courses {
+    grid-template-columns: repeat(2, 1fr);
+    background-color:greenyellow;
+  }
+  .blogs{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
+
+ 
+
+
+  
+ 
+
